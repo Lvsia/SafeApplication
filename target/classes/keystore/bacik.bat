@@ -1,0 +1,1 @@
+keytool -genkeypair -alias oibi -keyalg RSA -keysize 4096 -validity 3650 -dname "CN=localhost" -ext "SAN=DNS:localhost,IP:127.0.0.1" -keypass katekate -keystore keystore.p12 -storeType PKCS12 -storepass katekate
